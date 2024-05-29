@@ -1,0 +1,119 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+
+  background-color: black;
+  color: white;
+  overflow: hidden;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+.sidebar {
+  border-radius: 1rem;
+  background-color: black;
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+}
+.nav {
+  background-color: #121212;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
+  padding: 0.5rem 0.75rem 0.5rem 0.75rem;
+}
+.navitem {
+  padding: 0.75rem 0.75rem 0.75rem 0.75rem;
+  opacity: 0.5;
+  transition-duration: 0.8s;
+}
+.navitem:hover {
+  padding: 0.75rem 0.75rem 0.75rem 0.75rem;
+  opacity: 1;
+}
+.navitem i {
+  font-size: 1.25rem;
+}
+.navitem a {
+  margin-left: 0.75rem;
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+}
+.main_content {
+  border-radius: 1rem;
+  background-color: #1c1d1c;
+  flex: 1;
+  overflow: auto;
+}
+.music_player {
+  background-color: black;
+  position: fixed;
+  bottom: 0px;
+  height: 72px;
+  width: 100vw;
+}
+.library {
+  background-color: #121212;
+  flex: 1;
+  border-radius: 1rem;
+  justify-content: space-between;
+  padding: 0.5rem 0.75rem 0.5rem 0.75rem;
+  margin-top: 7px;
+}
+.library_item img {
+  width: 22.5px;
+  height: 19.8px;
+}
+.library_icon i {
+  font-size: 0.95rem;
+  margin: 0px 0.5rem 0px 0.6rem;
+}
+.library_item a {
+  font-size: 1rem;
+  margin-left: 12px;
+  opacity: 0.5;
+  transition-duration: 0.8s;
+}
+.library_item a:hover {
+  font-size: 1rem;
+  margin-left: 12px;
+  opacity: 1;
+}
+.library_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
+  padding: 12px;
+  font-size: 1rem;
+}
+.box {
+  background-color: #252524;
+  height: 8rem;
+  border-radius: 1rem;
+  margin: 0.5rem 0rem 0.5rem 0rem;
+  padding: 0.2rem 1.25rem 1rem 1.25rem;
+}
+.box_p1 {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.box_p2 {
+  font-size: 0.75rem;
+  opacity: 0.9;
+}
+.badge {
+  background-color: white;
+  border: none;
+  border-radius: 100px;
+  padding: 0.25rem 1rem 0.25rem 1rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  width: fit-content;
+}
